@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 2px red;
+    margin: 2px;
+    flex-grow: 1;
+    flex-basis: calc(33.333% - 4px);
+    height: 100px; /* You can adjust this value as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+  box-sizing: border-box;
+   
+ .box:nth-child(1) { height: 80px; }
+.box:nth-child(2) { height: 120px; }
+.box:nth-child(3) { height: 90px; }
+.box:nth-child(4) { height: 110px; }
+.box:nth-child(5) { height: 100px; }
+.box:nth-child(6) { height: 130px; }
+.box:nth-child(7) { height: 70px; }
+.box:nth-child(8) { height: 95px; }
+.box:nth-child(9) { height: 115px; }
+
+}
+
+/* You can add specific styles for individual divs if necessary */
+/* Aplica el color del borde en lugar de fondo */
+#div1 { border: 2px solid red; flex-basis: 100px; }
+#div2 { border: 2px solid greenyellow; flex-basis: 120px; }
+#div3 { border: 2px solid blue; flex-basis: 80px; }
+#div4 { border: 2px solid darkslateblue; flex-basis: 150px; }
+#div5 { border: 2px solid rosybrown; flex-basis: 90px; }
+#div6 { border: 2px solid paleturquoise; flex-basis: 110px; }
+#div7 { border: 2px solid grey; flex-basis: 130px; }
+#div8 { border: 2px solid orange; flex-basis: 70px; }
+#div9 { border: 2px solid brown; flex-basis: 140px; }
